@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1" branch-rate="1" lines-covered="13" lines-valid="13" branches-covered="0" branches-valid="0" complexity="NaN" version="0" timestamp="1615174021">
+  <sources>
+    <source>/home/runner/work/poc-flask-di/poc-flask-di</source>
+  </sources>
+  <packages>
+    <package name="src" line-rate="1" branch-rate="1" complexity="NaN">
+      <classes>
+        <class name="__init__.py" filename="/home/runner/work/poc-flask-di/poc-flask-di/src/__init__.py" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+      </classes>
+    </package>
+    <package name="src.sample" line-rate="1" branch-rate="1" complexity="NaN">
+      <classes>
+        <class name="__init__.py" filename="/home/runner/work/poc-flask-di/poc-flask-di/src/sample/__init__.py" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+        <class name="calculator_helper.py" filename="/home/runner/work/poc-flask-di/poc-flask-di/src/sample/calculator_helper.py" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines>
+            <line number="1" hits="1" branch="false" />
+            <line number="2" hits="1" branch="false" />
+            <line number="5" hits="1" branch="false" />
+            <line number="6" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="calculator.py" filename="/home/runner/work/poc-flask-di/poc-flask-di/src/sample/calculator.py" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines>
+            <line number="1" hits="1" branch="false" />
+            <line number="4" hits="1" branch="false" />
+            <line number="5" hits="1" branch="false" />
+            <line number="6" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="9" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
