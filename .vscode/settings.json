@@ -1,0 +1,33 @@
+{
+    "python.pythonPath": "${workspaceRoot}/venv/Scripts/python.exe",
+    "python.autoComplete.addBrackets": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "--cache-clear"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.lintOnSave": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.envFile": "${workspaceFolder}/.envscode",
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+    },
+    "emeraldwalk.runonsave": {
+        "autoClearConsole": true,
+        "shell": "pwsh",
+        "commands": [
+            {
+                "match": "\\.py$",
+                "cmd": " ${env:PYTHONPATH}='./src'; ./venv/Scripts/Activate.ps1; coverage run --source src -m pytest ; coverage xml -o cov.xml; coverage report -m"
+            }
+        ]
+    }
+}
